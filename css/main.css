@@ -1,0 +1,96 @@
+body {
+    font-size: 1.25rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.main__wrapper,
+.guest__list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__wrapper {
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #1f2e2e;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 2rem 0;
+}
+
+.button {
+    width: 50%;
+    border: none;
+    padding: 0.7rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4d4d;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #ffb3b3;
+}
+
+.fa-envelope {
+    color: #b3b3b3;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+/* --- Invite to potluck styles --- */
+
+label {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #1f2e2e;
+}
+
+#invite,
+.assigned__items {
+    margin: 1.5rem 0;
+    padding: 0.3rem 2rem;
+} 
+
+.invited__guests {
+    padding-top: 3.5rem;
+}
+
+
+/* --- Alert message styles --- */
+
+.guest-list__message {
+    margin-bottom: 2rem;
+}
+
+.alert-button {
+    width: 90%;
+}
+
+.hide {
+    display: none;
+}
